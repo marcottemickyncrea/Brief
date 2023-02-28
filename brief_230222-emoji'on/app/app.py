@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
-emotion_model = load_model("emotions_augx2-m2.h5")
+emotion_model = load_model("emotions_augx2-m1-2.h5")
 emotion_labels = ['Colere', 'Degout','Peur','Joie', 'Tristesse', 'Surprise', 'Neutre']
 emotion_images = {
     'Colere': cv2.imread('static/emojis/colere.png'),
